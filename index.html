@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyC4VJQd6DCXMZ3K_-JJPEh1t6cOY5_D364",
+          authDomain: "smit-5486d.firebaseapp.com",
+          databaseURL: "https://smit-5486d.firebaseio.com",
+          projectId: "smit-5486d",
+          storageBucket: "smit-5486d.appspot.com",
+          messagingSenderId: "107421346778",
+          appId: "1:107421346778:web:a84b9a0ab4a385937daee3",
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+</head>
+<body>
+    <div><center><h1>Registration Form</h1></center></div>
+    <div  class="main">
+        <center><label for="">First Name:</label>
+        <input type="text" id="firstname" placeholder="enter your firstname"><br>
+        <label for="">Last Name:</label>
+        <input type="text" id="lastname" placeholder="enter your last name"><br>
+        <label for="">Gender:</label>
+        <input type="text" id="gender" placeholder="enter your gender"><br>
+        <label for="">Email:</label>
+        <input type="email" id="email" placeholder="enter your email"><br>
+        <label for="">Password:</label>
+        <input type="password" id="password" placeholder="enter your password"><br>
+
+        <button onclick="hello()" class="btn"  href="index2.html">submit</button ></center>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
